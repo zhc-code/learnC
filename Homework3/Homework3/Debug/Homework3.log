@@ -1,5 +1,2 @@
-﻿test2.obj : error LNK2005: _main 已经在 test1.obj 中定义
-test3.obj : error LNK2005: _main 已经在 test1.obj 中定义
-test4.obj : error LNK2005: _main 已经在 test1.obj 中定义
-test5.obj : error LNK2005: _main 已经在 test1.obj 中定义
-G:\Earn much money\bit\Homework\learnC\Homework3\Debug\Homework3.exe : fatal error LNK1169: 找到一个或多个多重定义的符号
+﻿  test5.c
+  Homework3.vcxproj -> G:\Earn much money\bit\Homework\learnC\Homework3\Debug\Homework3.exe
