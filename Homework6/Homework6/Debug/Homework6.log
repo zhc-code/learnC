@@ -1,0 +1,4 @@
+﻿  test3.c
+g:\earn much money\bit\homework\learnc\homework6\homework6\test3.c(12): error C2106: “=”: 左操作数必须为左值
+g:\earn much money\bit\homework\learnc\homework6\homework6\test3.c(15): error C2106: “=”: 左操作数必须为左值
+g:\earn much money\bit\homework\learnc\homework6\homework6\test3.c(26): error C2065: “x”: 未声明的标识符
