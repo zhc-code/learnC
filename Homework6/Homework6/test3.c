@@ -4,27 +4,24 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void Judge() {
+void Judgelpy() {
 	
-	int x ;
-// 	printf("请输入一个年份:");
-// 	scanf("%d", &x);*/
-	if (x % 400 = 0) {
+	int x = 0;
+	scanf("%d", &x);
+	if (x % 400 == 0) {
 		printf("%d年是世纪闰年\n", x);
 	}
-	else if ((x % 4 = 0) && (x % 100 != 0)) {
+	else if ((x % 4 == 0) && (x % 100 != 0)) {
 		printf("%d年是普通闰年\n", x);
 	}
 	else {
 		printf("%d年不是闰年!", x);
 	}
 }
-int main() {
+int test3() {
 	
-	
-	printf("请输入一个年份:"--);
-	scanf("%d", &x);
-	Judge();
+	printf("请输入一个年份:");
+	Judgelpy();
 
 	system("pause");
 	return 0;

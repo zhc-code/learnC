@@ -1,4 +1,7 @@
-﻿  test3.c
-g:\earn much money\bit\homework\learnc\homework6\homework6\test3.c(12): error C2106: “=”: 左操作数必须为左值
-g:\earn much money\bit\homework\learnc\homework6\homework6\test3.c(15): error C2106: “=”: 左操作数必须为左值
-g:\earn much money\bit\homework\learnc\homework6\homework6\test3.c(26): error C2065: “x”: 未声明的标识符
+﻿  test1.c
+  test2.c
+  test3.c
+  test4.c
+  正在生成代码...
+g:\earn much money\bit\homework\learnc\homework6\homework6\test1.c(18): warning C4716: “Function”: 必须返回一个值
+  Homework6.vcxproj -> G:\Earn much money\bit\Homework\learnC\Homework6\Debug\Homework6.exe
