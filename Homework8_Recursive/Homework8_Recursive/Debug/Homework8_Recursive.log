@@ -1,3 +1,3 @@
-﻿  test5.c
-g:\earn much money\bit\homework\learnc\homework8_recursive\homework8_recursive\test5.c(33): error C2084: 函数“int main()”已有主体
-  g:\earn much money\bit\homework\learnc\homework8_recursive\homework8_recursive\test5.c(8): note: 参见“main”的前一个定义
+﻿  test3.c
+g:\earn much money\bit\homework\learnc\homework8_recursive\homework8_recursive\test3.c(16): warning C4715: “Reverse_string”: 不是所有的控件路径都返回值
+  Homework8_Recursive.vcxproj -> G:\Earn much money\bit\Homework\learnC\Homework8_Recursive\Debug\Homework8_Recursive.exe
