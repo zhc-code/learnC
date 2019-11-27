@@ -31,7 +31,8 @@ void Init(char chessBoard[MAX_ROW][MAX_COL]) {
 		}
 	}
 }
-void PlayerMove(char chessBoard[MAX_ROW][MAX_COL]) {	//无法同时返回两个参数,通过指针将参数传出
+//玩家落子
+void PlayerMove(char chessBoard[MAX_ROW][MAX_COL]) {	
 	int row = 0;
 	int col = 0;
 	printf("轮到玩家落子!\n");
@@ -52,7 +53,7 @@ void PlayerMove(char chessBoard[MAX_ROW][MAX_COL]) {	//无法同时返回两个参数,通过
 		break;
 	}	
 }
-
+//判定游戏是否结束
 //1. 返回X表示玩家获胜
 //2. 返回O表示电脑获胜
 //3. 返回' '表示还未分出胜负
@@ -85,6 +86,7 @@ char Check(char chessBoard[MAX_ROW][MAX_COL]) {
 		&& chessBoard[0][2] == chessBoard[2][0]) {
 		return chessBoard[0][2];
 	}
+	//判断棋盘是否下满
 	if (IsFull(chessBoard)) {
 		return 'P';
 	}
