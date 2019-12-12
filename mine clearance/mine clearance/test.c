@@ -100,28 +100,7 @@ int PlayerCheck(char showMap[MAX_ROW][MAX_COL], char mineMap[MAX_ROW][MAX_COL]) 
 		}
 	}
 }
-//判断用户是否踩雷,若踩雷则游戏结束,若没有,则统计该位置周围八个格子的地雷数量并返回值
-//int Check(char showMap[MAX_ROW][MAX_COL], char mineMap[MAX_ROW][MAX_COL]) {
-//	int row = 0;
-//	int col = 0;
-//	int showNum = 0;
-//	//PlayerMove(showMap[row][col]);		//将用户输入传进来与mineMap对比
-//	if (PlayerMove(showMap) == mineMap[row][col]) {
-//		return 0;
-//	}
-//	else {			//遍历该位置周围八个格子,计算周围地雷数量并在地图上该位置显示
-//		for (int i = row - 1; i <= row + 1; i++) {		
-//			for (int j = col - 1; j <= col + 1; j++) {
-//				if (mineMap[i][j] == 'X') {
-//					showNum++;
-//				}
-//			}
-//		}
-//		showMap[row][col] = showNum;
-//		Print(showMap);
-//	}
-//
-//}
+
 //游戏胜利条件:玩家将所有不是雷的格子都翻开则胜利
 void Winner(char showMap[MAX_ROW][MAX_COL], char mineMap[MAX_ROW][MAX_COL]) {
 	int countMine = COUNT;
